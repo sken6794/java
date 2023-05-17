@@ -1,0 +1,21 @@
+package quiz18;
+
+public class ArrayQuiz01 {
+	public static void main(String[] args) {
+		
+		String[] arr = {"홍길동","홍길자","이순신","신사임당"};
+		
+		
+	}
+	
+	public static String test(String[] arr, String[] arr2) {
+		
+		
+		
+		
+		return "";		
+	}
+	
+	
+	
+}

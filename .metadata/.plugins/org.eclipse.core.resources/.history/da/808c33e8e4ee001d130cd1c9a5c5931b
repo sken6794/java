@@ -1,0 +1,13 @@
+package day14.api.thread;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		ThreadTest test = new ThreadTest();
+		Thread thread = new Thread(test, "?무슨 이름");
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,21 @@
+package quiz18;
+
+public class ArrayQuiz01 {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+	
+	public static String test(String[] arr, String[] arr2) {
+		
+		
+		
+		
+		return "";		
+	}
+	
+	
+	
+}

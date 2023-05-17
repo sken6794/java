@@ -1,0 +1,18 @@
+package quiz01;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		System.out.println(fac(3));
+			
+
+	}
+	
+	public static int fac(int i) {
+		
+		if(i==1) return 1;
+		
+		
+		return i*fac(i-1);
+	};
+}

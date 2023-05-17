@@ -1,0 +1,31 @@
+package quiz01;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+	public static void main(String[] args) {
+		int i = 1;
+		String str = "";
+		List<String> list = new ArrayList<>();
+		while(list.size()!=100) {
+			str += i;
+			if(Integer.parseInt(str)%3!=0) {
+				list.add(str);
+			}else if(!str.contains("3")) {
+				list.add(str);
+			}
+			str="";
+			i++;
+		}
+		System.out.println(list.size());
+		System.out.println(list.toString());
+		System.out.println(list.get(40));
+		
+		
+		
+
+	}
+	
+	
+}

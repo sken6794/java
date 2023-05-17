@@ -1,0 +1,44 @@
+package quiz01;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		
+		String[] str_list = {"l","l","r","l","d"};
+		String[] result = {};
+		List<String> list = new ArrayList<>();
+		for (String string : str_list) {
+			list.add(string);
+		}
+		
+		//l만 있을때 r만 있을때
+		
+		
+		int l = list.indexOf("l"); 
+		int r = list.indexOf("r");
+		int ll = list.lastIndexOf("l");
+		int lr = list.lastIndexOf("r");
+		if(l>r && l!=ll) {
+			result = Arrays.copyOfRange(str_list, r+1, str_list.length);
+			
+		} else if (r>l && r!=lr) {
+			result = Arrays.copyOfRange(str_list, 0, l);
+		} else if (l<0 || r<0) {
+			result = new String[0];
+		} 
+		
+		System.out.println(Arrays.toString(result));
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

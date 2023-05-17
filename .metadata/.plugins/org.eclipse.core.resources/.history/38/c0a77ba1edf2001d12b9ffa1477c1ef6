@@ -1,0 +1,21 @@
+package quiz01;
+
+import java.util.Arrays;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		String[] str_list = {"u","u","l","r"};
+		String str = "";
+		for (String string : str_list) {
+			str += string;
+		}
+		boolean f = false;
+		if(str.indexOf("l")<str.indexOf("r")) f = false;
+		else f = true;
+		
+		
+	}
+	
+	
+}

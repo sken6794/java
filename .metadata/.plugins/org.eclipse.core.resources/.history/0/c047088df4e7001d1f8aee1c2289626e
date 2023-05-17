@@ -1,0 +1,28 @@
+package quiz18;
+
+public class ArrayQuiz01 {
+	public static void main(String[] args) {
+		
+		
+		//arr, arr2 는 길이차이 1 
+		//arr 마라톤 참가자
+		//arr2 마라톤 완주자
+		//완주하지 못한 사람을 리턴
+		
+		String[] arr = {"홍길동","홍길자","이순신","신사임당"};
+		String[] arr2 = {"홍길동","이순신","신사임당"};
+		
+		
+	}
+	
+	public static String test(String[] arr, String[] arr2) {
+		
+		
+		
+		
+		return "";		
+	}
+	
+	
+	
+}

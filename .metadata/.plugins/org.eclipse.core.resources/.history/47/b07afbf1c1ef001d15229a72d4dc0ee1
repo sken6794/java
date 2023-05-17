@@ -1,0 +1,24 @@
+package quiz01;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		int re = 0;
+		int i = 1;
+		int n = 7;
+		while(re<=n) {
+			re = fac(i);
+			i++;
+		}
+		System.out.println(re);
+
+	}
+	
+	public static int fac(int i) {
+		
+		if(i==1) return 1;
+		
+		
+		return i*fac(i-1);
+	};
+}

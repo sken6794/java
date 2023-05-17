@@ -1,0 +1,39 @@
+package day16.api.io.buffered;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.InputStream;
+
+public class BufferReaderUTF8 {
+	public static void main(String[] args) {
+		
+		/*
+		 * 인코딩 => 파일, 텍스트문서가 저장될 때 컴퓨터가 아는 이진수 형태로 저장하는 형식
+		 * 디코딩 => 컴퓨터가 아는 이진수 형태의 데이터를 사람이 알아볼 수 있는 문자형식으로 변경
+		 */
+		
+		String path = "C:\\Users\\user\\Desktop\\couse\\java\\file\\example.txt";
+		
+		InputStream fis = new FileInputStream(path); // 1바이트 기반
+		
+		BufferedReader br = new BufferedReader(null); 
+		
+		try (BufferedReader br = new BufferedReader(new FileReader(path))){
+			
+			String str;
+			while( (str = br.readLine()) != null){
+				
+				System.out.println(str);
+			}
+			
+			
+		} catch (Exception e) {
+			
+		}
+		
+		
+		
+		
+	}
+}

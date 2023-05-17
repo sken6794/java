@@ -1,0 +1,28 @@
+package quiz01;
+
+import java.util.Arrays;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		String[] str_list = {"u","u","l","r"};
+		String str = "";
+		String[] result;
+		for (String string : str_list) {
+			str += string;
+		}
+		System.out.println(str.indexOf("l"));
+		boolean f = false;
+		//r이 뒤에나오면 f , 먼저나오면 t 
+		if(str.indexOf("l")<str.indexOf("r")) f = false;
+		else f = true;
+		if(f) { //r이 먼저
+			result = new String[str_list.length-str.indexOf("r")];
+		} else {
+			result = new String[str.indexOf("l")];
+		}
+		
+	}
+	
+	
+}

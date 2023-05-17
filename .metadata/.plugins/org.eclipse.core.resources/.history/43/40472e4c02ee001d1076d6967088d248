@@ -1,0 +1,17 @@
+package quiz21;
+
+public class Data {
+	
+	//VO, DTO
+	private String region;
+	private String size; 
+	private int  year;
+	private int month;
+	private int price;
+	
+	public Data() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

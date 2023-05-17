@@ -1,0 +1,13 @@
+package quiz22;
+
+public class Product {
+	private String day;
+	private String store;
+	private String grade;
+	private String detail;
+	private String price;
+	
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+}
