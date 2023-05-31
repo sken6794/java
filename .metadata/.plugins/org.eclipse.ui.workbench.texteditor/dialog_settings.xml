@@ -6,12 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="6657"/>
+		<item key="selection" value="Old"/>
 		<list key="findhistory">
+			<item value="Old"/>
+			<item value="New"/>
+			<item value="run"/>
 			<item value="6657"/>
 			<item value="&#x09;&#x09;System.out.println(token.nextElement());"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Old"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
